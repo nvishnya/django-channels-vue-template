@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+asgiref = "*"
+attrs = "*"
+autobahn = "*"
+channels = "*"
+constantly = "*"
+daphne = "*"
+django-webpack-loader = "*"
+djangorestframework = "*"
+hyperlink = "*"
+idna = "*"
+incremental = "*"
+pytz = "*"
+six = "*"
+txaio = "*"
+async_timeout = "*"
+Automat = "*"
+Django = "*"
+PyHamcrest = "*"
+Twisted = "*"
+"zope.interface" = "*"
+
+[requires]
+python_version = "3.6"
