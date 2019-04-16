@@ -1,17 +1,10 @@
 <template>
-    <b-container>
-        <b-row class="mt-4">
-            <b-col cols="4" offset="4">
-                <b-form inline @submit="onSubmit">
-                    <b-input class="mb-2 mr-sm-2 mb-sm-0"
-                            placeholder="Room name:"
-                            v-model="room_name">
-                    </b-input>
-                    <b-button variant="primary" type="submit">Go!</b-button>
-                </b-form>
-            </b-col>
-        </b-row>
-    </b-container>
+    <center>
+        <form @submit="onSubmit">
+            <input placeholder="Room name:" v-model="room_name">
+            <button type="submit">Go!</button>
+        </form>
+    </center>
 </template>
 
 <script>
@@ -31,3 +24,10 @@ export default {
     }
 }
 </script>
+
+<style>
+center{
+    position: relative;
+    top: 5%;
+}
+</style>

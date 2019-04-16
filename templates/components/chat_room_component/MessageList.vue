@@ -1,9 +1,9 @@
 <template>
-    <b-col cols="12">
+    <div>
         <p v-for="message in messages" v-bind:key="message.id">
             {{ message.text }}
         </p>
-    </b-col>
+    </div>
 </template>
 
 <script>

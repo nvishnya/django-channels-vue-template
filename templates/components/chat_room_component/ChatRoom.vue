@@ -1,18 +1,11 @@
 <template>
-    <b-container>
-        <b-row class="mt-4">
-            <b-col cols="4" offset="4">
-                <b-form inline @submit="onSubmit">
-                    <b-input class="mb-2 mr-sm-2 mb-sm-0"
-                             placeholder="Type your message here"
-                             v-model="message">
-                    </b-input>
-                    <b-button variant="primary" type="submit">Send</b-button>
-                </b-form>
-                <message-list v-bind:messages="messages"></message-list>
-            </b-col>
-        </b-row>
-    </b-container>
+    <center>
+        <form @submit="onSubmit">
+            <input placeholder="Type your message here" v-model="message">
+            <button type="submit">Send</button>
+        </form>
+        <message-list v-bind:messages="messages"></message-list>
+    </center>
 </template>
 
 <script>
@@ -65,3 +58,9 @@ export default {
     }
 }
 </script>
+<style>
+center{
+    position: relative;
+    top: 5%;
+}
+</style>
