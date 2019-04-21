@@ -1,7 +1,7 @@
 <template>
     <center>
         <form @submit="onSubmit">
-            <input placeholder="Room name:" v-model="room_name">
+            <input id='room-input-field' placeholder="Room name:" v-model="room_name">
             <button type="submit">Go!</button>
         </form>
     </center>

@@ -1,7 +1,7 @@
 <template>
     <center>
         <form @submit="onSubmit">
-            <input placeholder="Type your message here" v-model="message">
+            <input id='message-input-field' placeholder="Type your message here" v-model="message">
             <button type="submit">Send</button>
         </form>
         <message-list v-bind:messages="messages"></message-list>
