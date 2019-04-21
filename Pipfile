@@ -26,6 +26,7 @@ Django = "*"
 PyHamcrest = "*"
 Twisted = "*"
 "zope.interface" = "*"
+selenium = "*"
 
 [requires]
 python_version = "3.6"
