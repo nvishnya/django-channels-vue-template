@@ -52,3 +52,4 @@ Consumers
 Test files
 ---
 * **test.js** Here we write our tests using Jest framework.
+* **chat/tests.py** A test suite of end-to-end tests using Selenium.  
