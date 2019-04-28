@@ -49,7 +49,7 @@ Consumers
 -
 * **`ChatConsumer`** accepts WebSocket connections on the path /ws/ROOM_NAME/ that takes any message it receives on the WebSocket, echos it back to the same WebSocket and saves it to a database.
 
-Test files
+Tests
 ---
 * **test.js** Here we write our tests using Jest framework.
 * **chat/tests.py** A test suite of end-to-end tests using Selenium.  
