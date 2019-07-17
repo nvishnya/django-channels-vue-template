@@ -21,7 +21,7 @@ export default {
       message: "",
       messages: [],
       socket: new WebSocket(
-        "ws://" + window.location.host + "/ws" + this.$route.params.room
+        "ws://" + window.location.host + "/ws/" + this.$route.params.room + '/'
       )
     };
   },
