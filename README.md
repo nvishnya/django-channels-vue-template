@@ -21,7 +21,7 @@ The main purpose of Python virtual environments is to create an isolated environ
 * `npm run build` runs webpack in the production mode
 
 #  About
-React Components
+Vue Components
 -
 The components are defined in `src/components`.
 * **`MessageList`** is used to represent the message history in a room.
