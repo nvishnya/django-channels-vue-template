@@ -54,7 +54,6 @@ export default {
     var self = this;
     this.socket.addEventListener("message", function(event) {
       self.handleData(event.data);
-      console.log("new");
     });
   }
 };
