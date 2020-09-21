@@ -4,16 +4,6 @@
   </div>
 </template>
 
-<script>
-import RoomInput from "./components/RoomInput"
-export default {
-  components:{
-    RoomInput
-  }
-}
-</script>
-
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
