@@ -3,7 +3,7 @@
   <center>
     <form @submit="onSubmit">
       <input id="room-input-field" placeholder="Room name:" v-model="room_name" />
-      <button type="submit">Go!</button>
+      <button :style="{marginLeft:'5px'}" type="submit">Go!</button>
     </form>
   </center>
 </template>

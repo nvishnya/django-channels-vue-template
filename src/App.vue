@@ -1,27 +1,23 @@
 <template>
   <div id="app">
-    <router-view/>
+    <p class="name">
+      <span>Django</span> +
+      <span>Channels</span> +
+      <span>Vue</span>
+    </p>
+    <router-view />
   </div>
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Roboto Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
-#nav {
-  padding: 30px;
-}
-
-#nav a {
+.name {
   font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
